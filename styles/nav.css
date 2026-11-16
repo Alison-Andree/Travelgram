@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 3.2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+nav ul li {
+  color: inherit;
+}
+
+nav ul li:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+nav ul li:last-child img {
+  max-width: 4rem;
+  max-height: 4rem;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
