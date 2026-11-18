@@ -33,3 +33,10 @@ body {
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 }
+
+.container {
+  padding-inline: 3.2rem;
+  max-width: 128rem;
+
+  margin-inline: auto;
+}
